@@ -1,41 +1,37 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int validacion();
+double factorial(int nro);
+
 int main (){
     int nro;
-    double factorial;
+    double fact;
 
     printf("Este programa devuelve el factorial del nro ingresado.\n");
-    printf("Por favor, ingrese un nro:  ");
     nro = validacion();
-    factorial = factorial(nro);
-    printf("El factorial de %d es %lf.\n", nro, factorial);
-    system('pause');
+    fact = factorial(nro);
+    printf("El factorial de %d es %lf.\n", nro, fact);
+    system("pause");
     return 0;
 }
-int validacion(){   
+int validacion(){
     int x;
     do
     {
-        scanf("%d", %x);
-    }while(x<=0);
+        printf("Por favor, ingrese un nro:  ");
+        scanf("%d", &x);
+    }while(x<0);
     return x;
 }
 double factorial(int nro){
     double factorial;
     int i;
-    i = 0;
-    factorial = 0;
-    if(nro == 0)
+    i = 1;
+    factorial = 1;
+    for (i; i < nro; i++)
     {
-        factorial = 1;
-    }
-    else
-    {
-        for (i; i < nro; i++)
-        {
-            factorial *= i+1;
-        }
+        factorial *= (i+1);
     }
     return factorial;
 }
