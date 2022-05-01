@@ -1,16 +1,19 @@
 # depslib dependency file v1.0
-1649466281 source:c:\users\user\desktop\tp1\funcionesmatematicas.c
+1650496411 source:c:\users\user\desktop\tp1\funcionesmatematicas.c
 	"Utilidades.h"
 
-1649465039 c:\users\user\desktop\tp1\utilidades.h
+1650245267 c:\users\user\desktop\tp1\utilidades.h
 
-1649466256 source:c:\users\user\desktop\tp1\utilidades.c
+1651416667 source:c:\users\user\desktop\tp1\utilidades.c
+	<stdio.h>
+	<stdlib.h>
 	"FuncionesMatematicas.h"
+	<string.h>
 
-1649464158 source:c:\users\user\desktop\tp1\main.c
+1651416727 source:c:\users\user\desktop\tp1\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Utilidades.h"
 
-1649466246 c:\users\user\desktop\tp1\funcionesmatematicas.h
+1651416687 c:\users\user\desktop\tp1\funcionesmatematicas.h
 
